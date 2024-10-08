@@ -1,0 +1,40 @@
+
+.list {
+  display: flex;            /* 使用 flexbox 布局，使 item 可以排列 */
+  flex-direction: column;   /* 垂直排列每个 item */
+  padding: 10px;           /* 给 list 加一些内边距 */
+}
+
+.item {
+  display: flex;           /* 使用 flexbox 布局，使图片和信息可以并排 */
+  margin-bottom: 15px;    /* 每个 item 之间的间距 */
+  border: 1px solid #ddd; /* 为 item 添加边框，便于区分 */
+  border-radius: 5px;     /* 添加圆角 */
+  overflow: hidden;        /* 避免溢出 */
+}
+
+.goods.img {
+  flex: 1;                /* 图片占据 item 的一部分 */
+}
+
+.goods.info {
+  flex: 2;                /* 信息占据 item 的另一部分 */
+  padding: 10px;         /* 为信息部分添加内边距 */
+}
+
+img {
+  width: 100%;           /* 图片宽度设置为 100%，充满父容器 */
+  height: auto;          /* 高度自动，保持比例 */
+}
+
+/* 使商品名称和价格更美观 */
+.goods_name {
+  font-size: 16px;       /* 商品名称的字体大小 */
+  font-weight: bold;     /* 商品名称加粗 */
+  margin-bottom: 5px;    /* 商品名称和价格之间的间距 */
+}
+
+.goods.price {
+  font-size: 14px;       /* 价格的字体大小 */
+  color: #ff0000;        /* 价格字体颜色设置为红色 */
+}

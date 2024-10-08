@@ -1,0 +1,25 @@
+<!-- list.wxml -->
+<view class="list">
+  <view class="item">
+    <view class="goods img">
+      <img mode="widthfix" src="./images/cj.jpeg" style="width: 100%;"></img>
+    </view>
+    <view class="goods info">
+      <text class="goods_name">超级车架</text>
+      <view class="goods price">
+        ￥<text>9999</text>.00
+      </view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="goods img">
+      <img mode="widthfix" src="./images/cj.jpeg" style="width: 100%;"></img>
+    </view>
+    <view class="goods info">
+      <text class="goods_name">超级车架</text>
+      <view class="goods price">
+        ￥<text>9999</text>.00
+      </view>
+    </view>
+  </view>
+</view>

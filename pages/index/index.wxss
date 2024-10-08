@@ -1,0 +1,7 @@
+.nav{
+  margin-top: 160px;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+.tab-item {
+  margin: 0 0.85cm; /* 左右各 cm，总共 1cm 的间隔 */
+}

@@ -1,0 +1,9 @@
+<view class="index-container">
+  <view class="header">
+    <van-search bindtap="clickSearch" disabled bind:focus="clickSearch"
+      value="{{ value }}"
+      shape="round"
+      background="#4fc08d"
+      placeholder="热门搜索"/>
+  </view>
+</view>

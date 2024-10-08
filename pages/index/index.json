@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-search": "vant-weapp/search/index",
+    "swiper":"../../components/swiper/swiper",
+    "van-grid": "vant-weapp/tabbar/index",  
+    "van-grid-item": "vant-weapp/tabbar-item/index", 
+    "goods-list":"../../components/goods-list/goods-list"
+
+  }
+}

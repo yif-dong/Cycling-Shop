@@ -1,0 +1,17 @@
+.swiper {
+  padding: 0 10px;
+}
+
+.myswiper {
+  height: 300px; /* 根据需要调整高度 */
+}
+
+swiper-item {
+  height: 300px; /* 根据需要设置固定高度 */
+}
+
+image {
+  width: 100%;
+  height: 100%; /* 确保图片填满容器 */
+  object-fit: cover; /* 保持图片比例并填充 */
+}
