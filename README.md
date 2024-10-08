@@ -1,1 +1,4 @@
 # Cycling-Shop
+用微信开发者工具开发的小程序（uniapp
+小程序中添加了Vant Weapp的UI组件库
+轮播图组件封装在components下的swiper中，用的是小程序自带的
